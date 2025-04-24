@@ -1,0 +1,17 @@
+{
+    "name": "applogin/applogin",
+    "description": "Sistema de login com php e mysql",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ronaldo Leite"
+        }
+    ],
+    "require": {}
+}
