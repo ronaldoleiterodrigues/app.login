@@ -1,3 +1,11 @@
+<?php 
+ob_start();
+
+if(!isset($_SESSION)):
+  session_start();
+endif;
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,4 +14,4 @@
     <title>Document</title>
     <link rel="stylesheet" href="lib/css/aurora.css">
 </head>
-<body class=" bg-secundario">
+<body>

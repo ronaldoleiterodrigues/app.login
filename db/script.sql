@@ -18,7 +18,6 @@ CREATE TABLE USUARIO (
   IMAGEM VARCHAR(100) DEFAULT NULL,
   ATIVO ENUM('0','1') DEFAULT NULL
 );
-DROP TABLE usuario
 
 INSERT INTO APPLOGIN.USUARIO 
 VALUES (0,'Master','master','$2y$10$90hd/OkyEeKaIssAtk.AeOkUDCx2ziHivkJ4CTC7XyGqmh46n..vS','0','master@master.com','6803f5c19b487_calca-masculina.jpg','1')
